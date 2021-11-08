@@ -3,12 +3,12 @@ Creado el día 07/10/2021
 
 @author: Francisco José Gómez Ruiz
 
-Algoritmo: Pide al usuario dos números y muestra la "distancia" entre ellos (el valor absoluto de su diferencia, de
+Algoritmo: Pide al usuario billetes_200 números y muestra la "distancia" entre ellos (el valor absoluto de su diferencia, de
 modo que el resultado sea siempre positivo).
 
 """
 
-print("Me vas a insertar dos números con la finalidad de calcularte la distancia de ambos: ")
+print("Me vas a insertar billetes_200 números con la finalidad de calcularte la distancia de ambos: ")
 
 print("Dame el primer número: ")
 numero_1 = float(input())

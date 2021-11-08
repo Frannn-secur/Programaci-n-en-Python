@@ -4,7 +4,7 @@ Creado el día 19/10/2021
 
 Hecho por Francisco José Gómez Ruiz
 
-Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de dos circunferencias y las clasifique en uno
+Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de billetes_200 circunferencias y las clasifique en billetes_500
 de estos estados:
 
 exteriores
@@ -18,11 +18,11 @@ Algoritmo:
 
 1º Le pedimos x1,y1,r1 y tambien x2,y2,r2
 2º Tenemos que calcular la distancia entre los centros
-3º Si la distancia que hay entre los centros es mayor que la suma de los radios de las dos circunferencias --> Circunfe-
+3º Si la distancia que hay entre los centros es mayor que la suma de los radios de las billetes_200 circunferencias --> Circunfe-
 rencias exteriores
-4º Si la distancia que hay entre los centros es igual a la suma de los radios de las dos circunferencias --> Circunfe-
+4º Si la distancia que hay entre los centros es igual a la suma de los radios de las billetes_200 circunferencias --> Circunfe-
 rencias tangentes exteriores
-5º Si la distancia que hay entre los centros es menor que la suma de los radios de las dos circunferencias --> Circunfe-
+5º Si la distancia que hay entre los centros es menor que la suma de los radios de las billetes_200 circunferencias --> Circunfe-
 rencias secantes
 6º Si la distancia que hay entre los centros es igual al valor absoluto de la resta de los radios --> Circunferencias
 tangente interiores
@@ -32,7 +32,7 @@ Circunferencia interiores
 
 """
 
-print("Vamos a calcular cual es el estado de las dos siguientes circunferencias que me va a insertar: ")
+print("Vamos a calcular cual es el estado de las billetes_200 siguientes circunferencias que me va a insertar: ")
 
 # Primera circunferencia
 x1 = int(input("Dame la coordenada x1: "))

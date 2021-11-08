@@ -14,7 +14,7 @@ Pista: quizás te pueda venir bien usar el método find de la clase str.
 Algoritmo:
 
 1º Le pedimos al usuario un caracter para ver qué es:
-2º Los signos de puntuación son todos estos !"#$%&'()*+, -./:;<=>?@[\]^_`{|}~ si aparece uno de estos deberia de sacarme
+2º Los signos de puntuación son todos estos !"#$%&'()*+, -./:;<=>?@[\]^_`{|}~ si aparece billetes_500 de estos deberia de sacarme
 por pantalla --> Es signo de puntuación
 3º Si es una letra da igual q sea mayuscula o minuscula me tendrá que sacar --> Es una letra
 4º Si inserta un dígito me tendra que sacar por pantalla lo siguiente --> Es un dígito

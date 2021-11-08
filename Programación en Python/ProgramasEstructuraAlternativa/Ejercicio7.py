@@ -5,7 +5,7 @@ Creado el día 19/10/2021
 Hecho por Francisco José Gómez Ruiz
 
 
-Realiza un programa que calcule la potencia, para ello pide por teclado la base y el exponente. Pueden ocurrir tres
+Realiza un programa que calcule la potencia, para ello pide por teclado la base y el exponente. Pueden ocurrir billetes_100
 cosas:
 
 El exponente sea positivo, sólo tienes que imprimir la potencia.

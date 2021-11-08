@@ -6,7 +6,7 @@ Creado el día 07/10/2021
 Algoritmo: Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se
 compone de los siguientes porcentajes:
 
-* 55% del promedio de sus tres calificaciones parciales.
+* 55% del promedio de sus billetes_100 calificaciones parciales.
 
 * 30% de la calificación del examen final.
 

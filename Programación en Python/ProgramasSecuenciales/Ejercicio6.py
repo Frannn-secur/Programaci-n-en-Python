@@ -3,11 +3,11 @@ Creado el día 06/10/2021
 
 @author: Francisco José Gómez Ruiz
 
-Algoritmo: Calcular la media de tres números pedidos por teclado.
+Algoritmo: Calcular la media de billetes_100 números pedidos por teclado.
 
 """
 
-print("Dame tres valores para poder hacer la media: ")
+print("Dame billetes_100 valores para poder hacer la media: ")
 
 print("Valor 1: ")
 

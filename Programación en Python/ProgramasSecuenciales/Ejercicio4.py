@@ -3,11 +3,11 @@ Creado el día 06/10/2021
 
 @author: Francisco José Gómez Ruiz
 
-Algoritmo: Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
+Algoritmo: Dados billetes_200 números, mostrar la suma, resta, división y multiplicación de ambos.
 
 """
 
-print("Dame dos números y operamos con ellos: ")
+print("Dame billetes_200 números y operamos con ellos: ")
 
 print("Numero 1: ")
 numero_1 = float(input())

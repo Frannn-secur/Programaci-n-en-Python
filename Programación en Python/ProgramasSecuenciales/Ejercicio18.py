@@ -3,7 +3,7 @@ Creado el día 18/10/2021
 
 @author: Francisco José Gómez Ruiz
 
-Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales.
+Pedir el nombre y los billetes_200 apellidos de una persona y mostrar las iniciales.
 
 Algoritmo: 1º Pedimos tanto el nombre, apellido1 y apellido2
 2º Le ubicamos a unas nuevas variables la posicion de la cadena creada
