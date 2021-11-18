@@ -19,3 +19,19 @@ que 7, pero menor que 9), «Sobresaliente» (nota mayor o igual que 9, pero meno
 
 """
 
+print("Pedimos al usuario la nota y le sacamos por pantalla su correspondiente calificación: ")
+
+nota = int(input("Insertame tu nota para ser tu calificación: "))
+
+if nota < 5:
+    print("Esta nota esta SUSPENSA.")
+elif 5 <= nota < 7:
+    print("Esta nota esta APROBADA.")
+elif 7 <= nota < 9:
+    print("Esta nota es un NOTABLE")
+elif 9 <= nota < 10:
+    print("Esta nota es SOBRESALIENTE.")
+elif nota == 10:
+    print("ESTA NOTA ES DE MATRÍCULA DE HONOR!!")
+else:
+    print("Esta nota que me has insertado es incorrecta")
