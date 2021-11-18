@@ -36,6 +36,17 @@ cara_dado = int(input("Esta es la cara: "))
 
 if cara_dado == 6:
     print("Es la cara seis y su cara opuesta sería el 1.")
+elif cara_dado == 5:
+    print("Es la cara cinco y su cara opuesta sería el 2.")
+elif cara_dado == 4:
+    print("Es la cara cuatro y su cara opuesta sería el 3.")
+elif cara_dado == 3:
+    print("Es la cara tres y su cara opuesta es el 4.")
+elif cara_dado == 2:
+    print("Es la cara dos y su cara opuesta es la 5.")
+elif cara_dado == 1:
+    print("Es la cara uno y su cara opueta es la 6.")
+else:
     print(exit(1))
 
 
