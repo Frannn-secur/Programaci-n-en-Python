@@ -54,6 +54,5 @@ elif mes == 11:
     print("Es Noviembre con 30 días")
 elif mes == 12:
     print("Es Diciembre con 31 días")
-
 else:
-    print(exit(1))
+    print("Error")

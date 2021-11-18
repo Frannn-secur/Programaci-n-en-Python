@@ -47,6 +47,6 @@ elif cara_dado == 2:
 elif cara_dado == 1:
     print("Es la cara uno y su cara opueta es la 6.")
 else:
-    print(exit(1))
+    print("Error")
 
 

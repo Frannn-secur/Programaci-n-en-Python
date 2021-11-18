@@ -25,12 +25,38 @@ que depende de la zona del 1-5 seran la diferentes ubicaciones puestas en la tab
 2º Lo primero es si el peso es > 5 no podrá ser aceptado, si el peso es menor de 1 sacaremos por pantalla que el valor
 tiene que ser positivo, osea tiene que ser mayor que 1 pero menor de 5.
 3º Dependiendo de la zona horaria el precio a pagar será mayor o menor, hay zonas del 1-4:
-
-
-    3.1ºNos inserte uno sacamos por pantalla que es Enero y tiene 31 días.
-    2.2º Nos inserte dos sacamos por pantalla que es Febrero y tiene 28 días.
-    2.3º Nos inserte tres sacamos por pantalla que es Marzo y tiene 31 días.
-    2.4º Nos inserte cuatro sacamos por pantalla que es Abril y tiene 30 días.
-    2.5º Nos inserte cinco sacamos por pantalla que es Mayo y tiene 31 días.
+    3.1º Si la zona es 1 el precio será peso * 24
+    2.2º Si la zona es 2 el precio será peso * 20
+    2.3º Si la zona es 3 el precio será peso * 21
+    2.4º Si la zona es 4 el precio será peso * 10
+    2.5º Si la zona es 5 el precio será peso * 18
 4º Ponemos por default que va a haber un error si no son esos numeros
 """
+
+print("Segun el peso y la zona de destino la tarifa será de una forma o de otra.")
+print("zona 1 --> América del Norte")
+print("zona 2 --> América Central")
+print("zona 3 --> América del Sur")
+print("zona 4 --> Europa")
+print("zona 5 --> Asia")
+
+peso = float(input("Insertame cuanto es el peso del objeto que quiere enviar: "))
+zona = int(input("A que zona quiere enviar el paquete: "))
+
+if peso > 5:
+    print("El paquete no ha sido admitido por el peso")
+elif peso < 1:
+    print("El paquete no puede tener un peso negativo.")
+else:
+    if zona == 1:
+        print("Segun la zona y el peso su coste de envío será: ", peso * 24)
+    elif zona == 2:
+        print("Segun la zona y el peso su coste de envío será: ", peso * 20)
+    elif zona == 3:
+        print("Segun la zona y el peso su coste de envío será: ", peso * 21)
+    elif zona == 4:
+        print("Segun la zona y el peso su coste de envío será: ", peso * 10)
+    elif zona == 5:
+        print("Segun la zona y el peso su coste de envío será: ", peso * 18)
+    else:
+        print("Error en la zona añadida")

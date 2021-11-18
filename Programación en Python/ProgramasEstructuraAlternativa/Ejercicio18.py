@@ -39,5 +39,5 @@ elif dia_semana == 6:
 elif dia_semana == 7:
     print("Es Domingo")
 else:
-    print(exit(1))
+    print("Error")
 
