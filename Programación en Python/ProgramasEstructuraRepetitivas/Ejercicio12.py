@@ -23,7 +23,7 @@ caracter1 = str(input("Introduceme un caracter1: "))
 caracter2 = str(input("Introduceme un caracter2: "))
 cadena = str(input("Introduceme la cadena: "))
 
-while len(caracter1) != 1 and len(caracter2) != 1:
+while len(caracter1) != 1 or len(caracter2) != 1:
     caracter1 = str(input("Introduceme un solo caracter1: "))
     caracter2 = str(input("Introduceme un solo caracter2: "))
 
