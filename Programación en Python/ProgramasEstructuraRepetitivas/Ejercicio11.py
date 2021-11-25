@@ -7,9 +7,10 @@ Hecho por Francisco José Gómez Ruiz
 Suponiendo que hemos introducido una cadena por teclado que representa una frase (palabras separadas por espacios),
 realiza un programa que cuente cuantas palabras tiene.
 
-1º Pedimos la cadena y el caracter al usuario (nos aseguramos que sea un solo caracter)
-2º Recorremos la cadena a la vez que comparamos con nuestro caracter
-3º Mostramos la cantidad de veces que sea mostrado el caracter en la cadena
+1º Pedimos la cadena
+2º Recorremos la cadena con el fin de contar los espacios que tiene y cuando detecte uno, aumentamos nuestra variable
+contador de espacios
+3º Después mostraremos dicha variable para decir cuantas palabras hay en la cadena insertada.
 
 """
 
@@ -20,6 +21,7 @@ espacios = 0
 # El .strip nos devolverá una copia de la cadena sin espacios en blanco, pero podemos hacerlo tmb sin ella.
 
 for i in cadena:
+    # i va a pasar por todos los huecos de la cadena, una vez pase por un espacio en blanco, sumará el espacio.
     if i == " ":
         espacios += 1
 
